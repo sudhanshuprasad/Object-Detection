@@ -56,7 +56,7 @@ while True:
         detected_ppl.add(id)
 
         # print(detected_ppl)
-        print(boxes_id)
+    print(len(boxes_id))
 
     cv2.imshow('FRAME',frame)
     if cv2.waitKey(1)&0xFF==27:
